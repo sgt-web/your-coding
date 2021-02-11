@@ -1042,6 +1042,9 @@ small {
 /* Tablet page
 /*-----------------------------------------------------------------------*/
 @media (max-width: 896px) {
+  body {
+    overflow-x: hidden;
+  }
   /* ---------------------------- */
   /* header
 /* ---------------------------- */
@@ -1116,7 +1119,7 @@ small {
     transform: translateY(310px);
   }
   /* ---------------------------- */
-  /* header
+  /* fv
 /* ---------------------------- */
   .fv-left {
     width: 50%;
@@ -1163,6 +1166,12 @@ small {
   /* ---------------------------- */
   /* fv
 /* ---------------------------- */
+  body {
+    overflow-x: hidden;
+  }
+  .fv {
+    height: 100%;
+  }
   .fv .inner {
     flex-direction: column;
   }
@@ -1177,7 +1186,10 @@ small {
   /* features
 /* ---------------------------- */
   .features {
-    margin-top: 200px;
+    margin-top: 100px;
+  }
+  .features h3 {
+    line-height: 1.7em;
   }
   .features-contents {
     flex-direction: column-reverse;
@@ -1198,7 +1210,7 @@ small {
   /* ---------------------------- */
   /* faq
 /* ---------------------------- */
-  dl.accordion {
+  .accordion {
     width: 100%;
   }
   /* ---------------------------- */
@@ -1208,7 +1220,7 @@ small {
     width: 100%;
   }
   .blog .contents-wrapper .contents-item {
-    width: 100%;
+    width: 90%;
   }
   /* ---------------------------- */
   /* contact
@@ -1219,11 +1231,16 @@ small {
   .form {
     width: 100%;
     margin: 44px auto 0px;
+    padding: 35px 10px 0 10px;
   }
   #name,
   #mail,
   #inquiry {
     width: 100%;
+  }
+  .form-contents {
+    width: 100%;
+    margin: 0 auto;
   }
   /* ---------------------------- */
   /* footer
