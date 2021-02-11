@@ -47,11 +47,17 @@ $(function () {
   var swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
     spaceBetween: 55,
+    centeredSlides: true,
     loop: true,
     breakpoints: {
       // 350px以上の場合
       350: {
-        slidesPerView: 2,
+        slidesPerView: 1.5,
+        centeredSlides: true,
+      },
+      // 500px以上の場合
+      500: {
+        slidesPerView: 1.8,
         centeredSlides: true,
       },
       // 768px以上の場合
