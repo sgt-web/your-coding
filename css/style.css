@@ -469,7 +469,9 @@ body {
   font-weight: bold;
   color: #333333;
   line-height: 1.7em;
-  overflow-x: hidden;
+}
+html {
+ overflow-x: hidden;
 }
 
 .inner {
