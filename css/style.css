@@ -463,17 +463,17 @@ template {
 /*-----------------------------------------------------------------------
 /* 作成CSS
 -----------------------------------------------------------------------*/
+.container{
+  background-color: red;
+}
 body {
   font-size: 1em;
   font-family: Noto Sans JP;
   font-weight: bold;
   color: #333333;
   line-height: 1.7em;
+  overflow-x: hidden;
 }
-html {
- overflow-x: hidden;
-}
-
 .inner {
   max-width: 1062px;
   padding: 0 20px;
