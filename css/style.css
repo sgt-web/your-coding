@@ -464,7 +464,7 @@ template {
 /* 作成CSS
 -----------------------------------------------------------------------*/
 .container{
-  background-color: red;
+  overflow-x: hidden;
 }
 body {
   font-size: 1em;
